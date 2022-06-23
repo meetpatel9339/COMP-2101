@@ -31,6 +31,7 @@
 # Once per host report
 #####
 
+
 while [ $# -gt 0 ]; do
   case "$1" in
     -v)
@@ -86,6 +87,7 @@ EOF
 # Per-interface report
 #####
 
+
 while [ $# -gt 0 ]; do
   if [ $1 != '-v' ]; then
     interfaceValue=$1
@@ -132,6 +134,7 @@ EOF
     done
   exit
 done
+
 
 #####
 # End of per-interface report
